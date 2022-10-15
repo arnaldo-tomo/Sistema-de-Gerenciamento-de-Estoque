@@ -92,9 +92,10 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(346, 253);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 21);
+            this.label2.Size = new System.Drawing.Size(59, 21);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Password";
+            this.label2.Text = "Senha";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -105,9 +106,9 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(346, 166);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 21);
+            this.label3.Size = new System.Drawing.Size(66, 21);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Username ";
+            this.label3.Text = "Usuario";
             // 
             // bunifuFlatButton1
             // 
@@ -115,7 +116,7 @@
             this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "Login";
+            this.bunifuFlatButton1.ButtonText = "Entrar";
             this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
@@ -139,7 +140,7 @@
             this.bunifuFlatButton1.selected = false;
             this.bunifuFlatButton1.Size = new System.Drawing.Size(237, 54);
             this.bunifuFlatButton1.TabIndex = 7;
-            this.bunifuFlatButton1.Text = "Login";
+            this.bunifuFlatButton1.Text = "Entrar";
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -231,9 +232,9 @@
             this.label5.Location = new System.Drawing.Point(347, 84);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(167, 27);
+            this.label5.Size = new System.Drawing.Size(173, 27);
             this.label5.TabIndex = 14;
-            this.label5.Text = "Autenticacao";
+            this.label5.Text = "Autenticação ";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // bunifuElipse1

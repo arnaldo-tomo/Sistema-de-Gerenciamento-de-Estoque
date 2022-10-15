@@ -68,7 +68,7 @@ namespace InventorySystemCsharp
                 }
                 else
                 {
-                    MessageBox.Show("PassWord incorreta Tente Novamente");
+                    MessageBox.Show("Senha ou usuario incorreta Tente Novamente");
                 }
             }
             catch (Exception x)
@@ -96,6 +96,11 @@ namespace InventorySystemCsharp
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
