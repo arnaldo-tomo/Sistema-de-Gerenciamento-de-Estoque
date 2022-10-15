@@ -174,12 +174,12 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Bowlby One SC", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(51, 403);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(198, 59);
+            this.label6.Size = new System.Drawing.Size(174, 44);
             this.label6.TabIndex = 17;
             this.label6.Text = "SYSTEM";
             // 
@@ -198,23 +198,23 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Bowlby One SC", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(23, 284);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(270, 59);
+            this.label4.Size = new System.Drawing.Size(238, 44);
             this.label4.TabIndex = 15;
             this.label4.Text = "INVENTORY";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bowlby One SC", 26.2F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.2F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(1, 345);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(307, 54);
+            this.label1.Size = new System.Drawing.Size(265, 39);
             this.label1.TabIndex = 14;
             this.label1.Text = "MANAGEMENT";
             // 
@@ -234,6 +234,7 @@
             this.label5.Size = new System.Drawing.Size(133, 27);
             this.label5.TabIndex = 14;
             this.label5.Text = "Login Form";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // bunifuElipse1
             // 
