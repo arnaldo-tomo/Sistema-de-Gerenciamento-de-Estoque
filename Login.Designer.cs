@@ -231,9 +231,9 @@
             this.label5.Location = new System.Drawing.Point(347, 84);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(133, 27);
+            this.label5.Size = new System.Drawing.Size(167, 27);
             this.label5.TabIndex = 14;
-            this.label5.Text = "Login Form";
+            this.label5.Text = "Autenticacao";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // bunifuElipse1
