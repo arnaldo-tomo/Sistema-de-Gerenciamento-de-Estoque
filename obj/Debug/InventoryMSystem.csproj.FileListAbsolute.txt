@@ -1,0 +1,105 @@
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\bin\Debug\InventorySystem.exe.config
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\bin\Debug\InventorySystem.exe
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\bin\Debug\InventorySystem.pdb
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventoryMSystem.csprojResolveAssemblyReference.cache
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventorySystemCsharp.Admin_home.resources
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventorySystemCsharp.Confirm.resources
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventorySystemCsharp.Home.resources
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventorySystemCsharp.Login.resources
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventorySystemCsharp.Manager_home.resources
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventorySystemCsharp.MyOrders.resources
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventorySystem.Properties.Resources.resources
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventorySystemCsharp.SignUp.resources
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventorySystemCsharp.UserControl1.resources
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventorySystemCsharp.User_list.resources
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventoryMSystem.csproj.GenerateResource.Cache
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventoryMSystem.csproj.CoreCompileInputs.cache
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventorySystem.exe
+F:\codeastro\C#\Inventory-management-system\TinaliAutoLight\obj\Debug\InventorySystem.pdb
+F:\codeastro\C#\Inventory-management-system\InventorySystem\bin\Debug\InventorySystem.exe.config
+F:\codeastro\C#\Inventory-management-system\InventorySystem\bin\Debug\InventorySystem.exe
+F:\codeastro\C#\Inventory-management-system\InventorySystem\bin\Debug\InventorySystem.pdb
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventoryMSystem.csprojResolveAssemblyReference.cache
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventorySystemCsharp.Admin_home.resources
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventorySystemCsharp.Confirm.resources
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventorySystemCsharp.Home.resources
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventorySystemCsharp.Login.resources
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventorySystemCsharp.Manager_home.resources
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventorySystemCsharp.MyOrders.resources
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventorySystem.Properties.Resources.resources
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventorySystemCsharp.SignUp.resources
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventorySystemCsharp.UserControl1.resources
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventorySystemCsharp.User_list.resources
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventoryMSystem.csproj.GenerateResource.Cache
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventoryMSystem.csproj.CoreCompileInputs.cache
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventorySystem.exe
+F:\codeastro\C#\Inventory-management-system\InventorySystem\obj\Debug\InventorySystem.pdb
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\bin\Debug\InventorySystem.exe.config
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\bin\Debug\InventorySystem.exe
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\bin\Debug\InventorySystem.pdb
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventoryMSystem.csprojResolveAssemblyReference.cache
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Admin_home.resources
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Confirm.resources
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Home.resources
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Login.resources
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Manager_home.resources
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.MyOrders.resources
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystem.Properties.Resources.resources
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.SignUp.resources
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.UserControl1.resources
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.User_list.resources
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventoryMSystem.csproj.GenerateResource.Cache
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventoryMSystem.csproj.CoreCompileInputs.cache
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystem.exe
+F:\codeastro\C#\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystem.pdb
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\bin\Debug\InventorySystem.exe.config
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystem.exe
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystem.pdb
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\bin\Debug\InventorySystem.exe
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\bin\Debug\InventorySystem.pdb
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\bin\Debug\mscorlib.dll
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\bin\Debug\pt-PT\mscorlib.resources.dll
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\bin\Debug\normidna.nlp
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\bin\Debug\normnfc.nlp
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\bin\Debug\normnfd.nlp
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\bin\Debug\normnfkc.nlp
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\bin\Debug\normnfkd.nlp
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventoryMSystem.csprojResolveAssemblyReference.cache
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Admin_home.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Confirm.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Home.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Login.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Manager_home.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.MyOrders.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystem.Properties.Resources.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.SignUp.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.UserControl1.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.User_list.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\InventoryManagementSystem\InventorySystem\obj\Debug\InventoryMSystem.csproj.GenerateResource.Cache
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\bin\Debug\InventorySystem.exe.config
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystem.exe
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystem.pdb
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\bin\Debug\InventorySystem.exe
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\bin\Debug\InventorySystem.pdb
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\bin\Debug\mscorlib.dll
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\bin\Debug\pt-PT\mscorlib.resources.dll
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\bin\Debug\normidna.nlp
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\bin\Debug\normnfc.nlp
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\bin\Debug\normnfd.nlp
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\bin\Debug\normnfkc.nlp
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\bin\Debug\normnfkd.nlp
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventoryMSystem.csprojResolveAssemblyReference.cache
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Admin_home.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Confirm.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Home.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Login.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.Manager_home.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.MyOrders.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystem.Properties.Resources.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.SignUp.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.UserControl1.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventorySystemCsharp.User_list.resources
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\obj\Debug\InventoryMSystem.csproj.GenerateResource.Cache
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\Sistema-de-Gerenciamento-de-Estoque\bin\Debug\InventorySystem.exe.config
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\Sistema-de-Gerenciamento-de-Estoque\obj\Debug\InventorySystem.exe
+C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Outros\InventoryManagementSystem\InventorySystem\Sistema-de-Gerenciamento-de-Estoque\obj\Debug\InventorySystem.pdb
