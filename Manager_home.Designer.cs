@@ -1068,7 +1068,7 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(46, 20);
             this.label19.TabIndex = 79;
-            this.label19.Text = "Price";
+            this.label19.Text = "Preço";
             // 
             // label20
             // 
@@ -1081,7 +1081,7 @@
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(42, 20);
             this.label20.TabIndex = 78;
-            this.label20.Text = "Type";
+            this.label20.Text = "Tipo";
             // 
             // label21
             // 
@@ -1094,7 +1094,7 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(38, 20);
             this.label21.TabIndex = 77;
-            this.label21.Text = "Part";
+            this.label21.Text = "Nome";
             // 
             // label22
             // 
@@ -1107,7 +1107,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(57, 20);
             this.label22.TabIndex = 76;
-            this.label22.Text = "Model";
+            this.label22.Text = "Modelo";
             // 
             // paid_orders_panel
             // 
@@ -1290,7 +1290,7 @@
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(106, 20);
             this.label24.TabIndex = 81;
-            this.label24.Text = "ID do pedido";
+            this.label24.Text = "Codigo do pedido";
             // 
             // label25
             // 
@@ -1329,7 +1329,7 @@
             this.p_user.Name = "p_user";
             this.p_user.Size = new System.Drawing.Size(38, 20);
             this.p_user.TabIndex = 77;
-            this.p_user.Text = "Part";
+            this.p_user.Text = "Nome";
             // 
             // label29
             // 
@@ -1380,7 +1380,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(206, 55);
             this.button2.TabIndex = 101;
-            this.button2.Text = "Generate Order-List PDF";
+            this.button2.Text = "Gerar PDF da Lista de Pedidos";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
