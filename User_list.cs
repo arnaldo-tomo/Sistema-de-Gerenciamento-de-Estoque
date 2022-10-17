@@ -44,5 +44,10 @@ namespace InventorySystemCsharp
         {
 
         }
+
+        private void users_list_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

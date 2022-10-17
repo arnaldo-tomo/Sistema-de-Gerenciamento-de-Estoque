@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle81 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle82 = new System.Windows.Forms.DataGridViewCellStyle();
-            BunifuAnimatorNS.Animation animation33 = new BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Manager_home));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle83 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle84 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle85 = new System.Windows.Forms.DataGridViewCellStyle();
-            BunifuAnimatorNS.Animation animation34 = new BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.slide_panel = new System.Windows.Forms.Panel();
@@ -134,11 +134,11 @@
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
             this.bunifuTransition2 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.label34 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -208,7 +208,7 @@
             this.unpaid_orders.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.unpaid_orders.Location = new System.Drawing.Point(18, 336);
             this.unpaid_orders.Margin = new System.Windows.Forms.Padding(2);
-            this.unpaid_orders.Name = "unpaid_orders";
+            this.unpaid_orders.Name = "Pedidos não pagos";
             this.unpaid_orders.Size = new System.Drawing.Size(189, 63);
             this.unpaid_orders.TabIndex = 57;
             this.unpaid_orders.Text = "Pedidos não pagos";
@@ -228,7 +228,7 @@
             this.paid_orders.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.paid_orders.Location = new System.Drawing.Point(18, 270);
             this.paid_orders.Margin = new System.Windows.Forms.Padding(2);
-            this.paid_orders.Name = "paid_orders";
+            this.paid_orders.Name = "Pedidos pagos";
             this.paid_orders.Size = new System.Drawing.Size(188, 63);
             this.paid_orders.TabIndex = 55;
             this.paid_orders.Text = "Pedidos pagos";
@@ -248,7 +248,7 @@
             this.delete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.delete.Location = new System.Drawing.Point(16, 204);
             this.delete.Margin = new System.Windows.Forms.Padding(2);
-            this.delete.Name = "delete";
+            this.delete.Name = "Apagar";
             this.delete.Size = new System.Drawing.Size(190, 63);
             this.delete.TabIndex = 54;
             this.delete.Text = "Apagar item";
@@ -268,7 +268,7 @@
             this.update.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.update.Location = new System.Drawing.Point(16, 138);
             this.update.Margin = new System.Windows.Forms.Padding(2);
-            this.update.Name = "update";
+            this.update.Name = "Atualizar";
             this.update.Size = new System.Drawing.Size(190, 63);
             this.update.TabIndex = 53;
             this.update.Text = "Atualizar item";
@@ -288,7 +288,7 @@
             this.add.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.add.Location = new System.Drawing.Point(16, 72);
             this.add.Margin = new System.Windows.Forms.Padding(2);
-            this.add.Name = "add";
+            this.add.Name = "Adicionar";
             this.add.Size = new System.Drawing.Size(190, 63);
             this.add.TabIndex = 52;
             this.add.Text = "Adicionar Item";
@@ -330,10 +330,10 @@
             this.manager_name.ForeColor = System.Drawing.Color.White;
             this.manager_name.Location = new System.Drawing.Point(18, 128);
             this.manager_name.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.manager_name.Name = "manager_name";
-            this.manager_name.Size = new System.Drawing.Size(41, 17);
+            this.manager_name.Name = "nome do gerente";
+            this.manager_name.Size = new System.Drawing.Size(85, 17);
             this.manager_name.TabIndex = 66;
-            this.manager_name.Text = "Ola!,";
+            this.manager_name.Text = "Ola!,Abrant";
             // 
             // pictureBox1
             // 
@@ -419,7 +419,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(206, 55);
             this.button1.TabIndex = 100;
-            this.button1.Text = "Generate Item List PDF";
+            this.button1.Text = "Gerar PDF da Lista de produto";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -434,7 +434,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(115, 18);
             this.label14.TabIndex = 99;
-            this.label14.Text = "Add Item Form";
+            this.label14.Text = "Adicionar formulário de Produto";
             // 
             // additem
             // 
@@ -449,11 +449,11 @@
             this.additem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.additem.Location = new System.Drawing.Point(52, 319);
             this.additem.Margin = new System.Windows.Forms.Padding(2);
-            this.additem.Name = "additem";
+            this.additem.Name = "Adicionar";
             this.additem.Padding = new System.Windows.Forms.Padding(4);
             this.additem.Size = new System.Drawing.Size(212, 61);
             this.additem.TabIndex = 98;
-            this.additem.Text = "Add Item";
+            this.additem.Text = "Adicionar Produto";
             this.additem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.additem.UseVisualStyleBackColor = false;
             this.additem.Click += new System.EventHandler(this.additem_Click);
@@ -467,9 +467,9 @@
             this.bunifuTransition1.SetDecoration(this.itemlist, BunifuAnimatorNS.DecorationType.None);
             this.itemlist.Location = new System.Drawing.Point(324, 27);
             this.itemlist.Margin = new System.Windows.Forms.Padding(2);
-            this.itemlist.Name = "itemlist";
-            dataGridViewCellStyle81.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.itemlist.RowsDefaultCellStyle = dataGridViewCellStyle81;
+            this.itemlist.Name = "Lista de Produto";
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.itemlist.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.itemlist.RowTemplate.Height = 24;
             this.itemlist.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.itemlist.Size = new System.Drawing.Size(610, 424);
@@ -482,8 +482,8 @@
             this.bunifuTransition1.SetDecoration(this.comboBox1, BunifuAnimatorNS.DecorationType.None);
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "imported",
-            "manufactured"});
+            "importado/A",
+            "fabricado/A"});
             this.comboBox1.Location = new System.Drawing.Point(148, 186);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
@@ -496,7 +496,7 @@
             this.bunifuTransition2.SetDecoration(this.instock, BunifuAnimatorNS.DecorationType.None);
             this.instock.Location = new System.Drawing.Point(148, 271);
             this.instock.Margin = new System.Windows.Forms.Padding(2);
-            this.instock.Name = "instock";
+            this.instock.Name = "Em estoque";
             this.instock.Size = new System.Drawing.Size(137, 20);
             this.instock.TabIndex = 95;
             this.instock.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -507,7 +507,7 @@
             this.bunifuTransition2.SetDecoration(this.price, BunifuAnimatorNS.DecorationType.None);
             this.price.Location = new System.Drawing.Point(148, 230);
             this.price.Margin = new System.Windows.Forms.Padding(2);
-            this.price.Name = "price";
+            this.price.Name = "Preço";
             this.price.Size = new System.Drawing.Size(137, 20);
             this.price.TabIndex = 94;
             this.price.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -518,7 +518,7 @@
             this.bunifuTransition2.SetDecoration(this.part, BunifuAnimatorNS.DecorationType.None);
             this.part.Location = new System.Drawing.Point(148, 149);
             this.part.Margin = new System.Windows.Forms.Padding(2);
-            this.part.Name = "part";
+            this.part.Name = "Tipo";
             this.part.Size = new System.Drawing.Size(137, 20);
             this.part.TabIndex = 92;
             this.part.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -529,7 +529,7 @@
             this.bunifuTransition2.SetDecoration(this.model, BunifuAnimatorNS.DecorationType.None);
             this.model.Location = new System.Drawing.Point(148, 108);
             this.model.Margin = new System.Windows.Forms.Padding(2);
-            this.model.Name = "model";
+            this.model.Name = "Modelo";
             this.model.Size = new System.Drawing.Size(137, 20);
             this.model.TabIndex = 91;
             this.model.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -540,7 +540,7 @@
             this.bunifuTransition2.SetDecoration(this.itemcode, BunifuAnimatorNS.DecorationType.None);
             this.itemcode.Location = new System.Drawing.Point(148, 67);
             this.itemcode.Margin = new System.Windows.Forms.Padding(2);
-            this.itemcode.Name = "itemcode";
+            this.itemcode.Name = "Código do Produto";
             this.itemcode.Size = new System.Drawing.Size(137, 20);
             this.itemcode.TabIndex = 90;
             this.itemcode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -556,7 +556,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(88, 20);
             this.label8.TabIndex = 81;
-            this.label8.Text = "Item Code";
+            this.label8.Text = "Código do Produto";
             // 
             // label7
             // 
@@ -569,7 +569,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(68, 20);
             this.label7.TabIndex = 80;
-            this.label7.Text = "In-Stock";
+            this.label7.Text = "Em estoque";
             // 
             // label6
             // 
@@ -582,7 +582,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(46, 20);
             this.label6.TabIndex = 79;
-            this.label6.Text = "Price";
+            this.label6.Text = "Preço";
             // 
             // label5
             // 
@@ -595,7 +595,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(42, 20);
             this.label5.TabIndex = 78;
-            this.label5.Text = "Type";
+            this.label5.Text = "Tipo";
             // 
             // label4
             // 
@@ -608,7 +608,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(38, 20);
             this.label4.TabIndex = 77;
-            this.label4.Text = "Part";
+            this.label4.Text = "Nome";
             // 
             // label3
             // 
@@ -621,7 +621,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 20);
             this.label3.TabIndex = 76;
-            this.label3.Text = "Model";
+            this.label3.Text = "Modelo";
             // 
             // updateitems_panel
             // 
@@ -659,7 +659,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(138, 18);
             this.label15.TabIndex = 113;
-            this.label15.Text = "Update Item Form";
+            this.label15.Text = "Actulaizar Produtos";
             // 
             // u_itemBtn
             // 
@@ -678,7 +678,7 @@
             this.u_itemBtn.Padding = new System.Windows.Forms.Padding(4);
             this.u_itemBtn.Size = new System.Drawing.Size(212, 74);
             this.u_itemBtn.TabIndex = 112;
-            this.u_itemBtn.Text = "Update Item";
+            this.u_itemBtn.Text = "Actualizar Produto";
             this.u_itemBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.u_itemBtn.UseVisualStyleBackColor = false;
             this.u_itemBtn.Click += new System.EventHandler(this.u_itemBtn_Click);
@@ -692,8 +692,8 @@
             this.u_dataGridView.Location = new System.Drawing.Point(324, 27);
             this.u_dataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.u_dataGridView.Name = "u_dataGridView";
-            dataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.u_dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle82;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.u_dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.u_dataGridView.RowTemplate.Height = 24;
             this.u_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.u_dataGridView.Size = new System.Drawing.Size(610, 424);
@@ -706,8 +706,8 @@
             this.bunifuTransition1.SetDecoration(this.u_typeCombo, BunifuAnimatorNS.DecorationType.None);
             this.u_typeCombo.FormattingEnabled = true;
             this.u_typeCombo.Items.AddRange(new object[] {
-            "imported",
-            "manufactured"});
+            "importado/A",
+            "fabricado/A"});
             this.u_typeCombo.Location = new System.Drawing.Point(149, 187);
             this.u_typeCombo.Margin = new System.Windows.Forms.Padding(2);
             this.u_typeCombo.Name = "u_typeCombo";
@@ -780,7 +780,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 20);
             this.label2.TabIndex = 104;
-            this.label2.Text = "Item code";
+            this.label2.Text = "Codigo Do Produto";
             // 
             // label9
             // 
@@ -793,7 +793,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(80, 20);
             this.label9.TabIndex = 103;
-            this.label9.Text = "Edit-Stock";
+            this.label9.Text = "Editar-Estoque";
             // 
             // label10
             // 
@@ -806,7 +806,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(77, 20);
             this.label10.TabIndex = 102;
-            this.label10.Text = "Edit-Price";
+            this.label10.Text = "Editar-Preço";
             // 
             // label11
             // 
@@ -819,7 +819,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(107, 20);
             this.label11.TabIndex = 101;
-            this.label11.Text = "Change-Type";
+            this.label11.Text = "Mudar-Tipo";
             // 
             // label12
             // 
@@ -832,7 +832,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(69, 20);
             this.label12.TabIndex = 100;
-            this.label12.Text = "Edit-Part";
+            this.label12.Text = "Editar-Nome";
             // 
             // label13
             // 
@@ -845,7 +845,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(88, 20);
             this.label13.TabIndex = 99;
-            this.label13.Text = "Edit-Model";
+            this.label13.Text = "Editar-Modelo";
             // 
             // logout_btn
             // 
@@ -868,22 +868,22 @@
             // 
             this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.bunifuTransition1.Cursor = null;
-            animation33.AnimateOnlyDifferences = true;
-            animation33.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation33.BlindCoeff")));
-            animation33.LeafCoeff = 0F;
-            animation33.MaxTime = 1F;
-            animation33.MinTime = 0F;
-            animation33.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation33.MosaicCoeff")));
-            animation33.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation33.MosaicShift")));
-            animation33.MosaicSize = 0;
-            animation33.Padding = new System.Windows.Forms.Padding(0);
-            animation33.RotateCoeff = 0F;
-            animation33.RotateLimit = 0F;
-            animation33.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation33.ScaleCoeff")));
-            animation33.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation33.SlideCoeff")));
-            animation33.TimeCoeff = 0F;
-            animation33.TransparencyCoeff = 0F;
-            this.bunifuTransition1.DefaultAnimation = animation33;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.bunifuTransition1.DefaultAnimation = animation1;
             // 
             // deleteitem_panel
             // 
@@ -921,7 +921,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(133, 18);
             this.label16.TabIndex = 99;
-            this.label16.Text = "Delete Item Form";
+            this.label16.Text = "Delete Produto";
             // 
             // del_item_btn
             // 
@@ -940,7 +940,7 @@
             this.del_item_btn.Padding = new System.Windows.Forms.Padding(4);
             this.del_item_btn.Size = new System.Drawing.Size(212, 74);
             this.del_item_btn.TabIndex = 98;
-            this.del_item_btn.Text = "Delete Item";
+            this.del_item_btn.Text = "Deletar Item";
             this.del_item_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.del_item_btn.UseVisualStyleBackColor = false;
             this.del_item_btn.Click += new System.EventHandler(this.del_item_btn_Click);
@@ -954,8 +954,8 @@
             this.d_item_dataGridView.Location = new System.Drawing.Point(324, 27);
             this.d_item_dataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.d_item_dataGridView.Name = "d_item_dataGridView";
-            dataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.d_item_dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle83;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.d_item_dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.d_item_dataGridView.RowTemplate.Height = 24;
             this.d_item_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.d_item_dataGridView.Size = new System.Drawing.Size(610, 424);
@@ -968,8 +968,8 @@
             this.bunifuTransition1.SetDecoration(this.d_typeCombo, BunifuAnimatorNS.DecorationType.None);
             this.d_typeCombo.FormattingEnabled = true;
             this.d_typeCombo.Items.AddRange(new object[] {
-            "imported",
-            "manufactured"});
+            "importado/A",
+            "fabricado/A"});
             this.d_typeCombo.Location = new System.Drawing.Point(148, 186);
             this.d_typeCombo.Margin = new System.Windows.Forms.Padding(2);
             this.d_typeCombo.Name = "d_typeCombo";
@@ -1042,7 +1042,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(86, 20);
             this.label17.TabIndex = 81;
-            this.label17.Text = "Item code";
+            this.label17.Text = "Codigo Do Produto";
             // 
             // label18
             // 
@@ -1055,7 +1055,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(68, 20);
             this.label18.TabIndex = 80;
-            this.label18.Text = "In-Stock";
+            this.label18.Text = "Em estoque";
             // 
             // label19
             // 
@@ -1216,8 +1216,8 @@
             this.paid_dataGridView1.Location = new System.Drawing.Point(324, 27);
             this.paid_dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.paid_dataGridView1.Name = "paid_dataGridView1";
-            dataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.paid_dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle84;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.paid_dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.paid_dataGridView1.RowTemplate.Height = 24;
             this.paid_dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.paid_dataGridView1.Size = new System.Drawing.Size(610, 424);
@@ -1285,7 +1285,7 @@
             this.bunifuTransition1.SetDecoration(this.label24, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.label24, BunifuAnimatorNS.DecorationType.None);
             this.label24.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(38, 67);
+            this.label24.Location = new System.Drawing.Point(36, 67);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(106, 20);
@@ -1301,9 +1301,9 @@
             this.label25.Location = new System.Drawing.Point(34, 232);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(74, 20);
+            this.label25.Size = new System.Drawing.Size(65, 20);
             this.label25.TabIndex = 80;
-            this.label25.Text = "É pago ?";
+            this.label25.Text = "É pago ";
             // 
             // label26
             // 
@@ -1451,8 +1451,8 @@
             this.unp_dataGridView.Location = new System.Drawing.Point(324, 27);
             this.unp_dataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.unp_dataGridView.Name = "unp_dataGridView";
-            dataGridViewCellStyle85.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.unp_dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle85;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.unp_dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.unp_dataGridView.RowTemplate.Height = 24;
             this.unp_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.unp_dataGridView.Size = new System.Drawing.Size(610, 424);
@@ -1579,26 +1579,40 @@
             this.label33.TabIndex = 76;
             this.label33.Text = "Details";
             // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F);
+            this.label34.Location = new System.Drawing.Point(766, 22);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(159, 44);
+            this.label34.TabIndex = 66;
+            this.label34.Text = "Estoque";
+            this.label34.Click += new System.EventHandler(this.label34_Click);
+            // 
             // bunifuTransition2
             // 
             this.bunifuTransition2.AnimationType = BunifuAnimatorNS.AnimationType.Transparent;
             this.bunifuTransition2.Cursor = null;
-            animation34.AnimateOnlyDifferences = true;
-            animation34.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation34.BlindCoeff")));
-            animation34.LeafCoeff = 0F;
-            animation34.MaxTime = 1F;
-            animation34.MinTime = 0F;
-            animation34.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation34.MosaicCoeff")));
-            animation34.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation34.MosaicShift")));
-            animation34.MosaicSize = 0;
-            animation34.Padding = new System.Windows.Forms.Padding(0);
-            animation34.RotateCoeff = 0F;
-            animation34.RotateLimit = 0F;
-            animation34.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation34.ScaleCoeff")));
-            animation34.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation34.SlideCoeff")));
-            animation34.TimeCoeff = 0F;
-            animation34.TransparencyCoeff = 1F;
-            this.bunifuTransition2.DefaultAnimation = animation34;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 1F;
+            this.bunifuTransition2.DefaultAnimation = animation2;
             // 
             // bunifuElipse1
             // 
@@ -1614,20 +1628,6 @@
             // 
             this.bunifuElipse3.ElipseRadius = 20;
             this.bunifuElipse3.TargetControl = this.additem;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTransition1.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F);
-            this.label34.Location = new System.Drawing.Point(766, 22);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(159, 44);
-            this.label34.TabIndex = 66;
-            this.label34.Text = "Estoque";
-            this.label34.Click += new System.EventHandler(this.label34_Click);
             // 
             // Manager_home
             // 

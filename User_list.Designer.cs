@@ -72,6 +72,7 @@
             this.users_list.RowTemplate.Height = 24;
             this.users_list.Size = new System.Drawing.Size(553, 254);
             this.users_list.TabIndex = 2;
+            this.users_list.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.users_list_CellContentClick);
             // 
             // close_btn
             // 
