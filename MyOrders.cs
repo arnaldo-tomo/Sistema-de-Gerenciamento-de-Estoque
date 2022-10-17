@@ -67,13 +67,13 @@ namespace InventorySystemCsharp
                 conn.Open();
                 cmd.ExecuteNonQuery();
                 conn.Close();
-                MessageBox.Show("Order Deleted");
+                MessageBox.Show("Pedido excluído");
 
                 FillMyOrdeers();
             }
             catch (NullReferenceException)
             {
-                MessageBox.Show("No item Selected");
+                MessageBox.Show("Nenhum item selecionado");
             }
         }
 

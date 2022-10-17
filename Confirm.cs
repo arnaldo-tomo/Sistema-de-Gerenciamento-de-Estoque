@@ -49,13 +49,18 @@ namespace InventorySystemCsharp
                 conn.Open();
                 cmd.ExecuteNonQuery();
                 conn.Close();
-                MessageBox.Show("Success");
+                MessageBox.Show("Sucesso");
                 button1_Click(sender, e);
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

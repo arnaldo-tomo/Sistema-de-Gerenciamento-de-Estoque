@@ -160,7 +160,7 @@ namespace InventorySystemCsharp
                     conn.Open();
                     cmd.ExecuteNonQuery();
                     conn.Close();
-                    MessageBox.Show("The item has been added successfully!");
+                    MessageBox.Show("O item foi adicionado com sucesso!");
                     model.Clear();
                     part.Clear();
                     price.Clear();
@@ -175,7 +175,7 @@ namespace InventorySystemCsharp
             }
             else
             {
-                MessageBox.Show("u should fill the all fields");
+                MessageBox.Show("vc deve preencher todos os campos");
             }
         }//add item method end
 
@@ -219,7 +219,7 @@ namespace InventorySystemCsharp
                     conn.Open();
                     cmd.ExecuteNonQuery();
                     conn.Close();
-                    MessageBox.Show("The item details are updated successfully!");
+                    MessageBox.Show("Os detalhes do item foram atualizados com sucesso!");
                     u_itemcodeTxt.Clear();
                     u_itemcodeTxt.Enabled = false;
                     u_itemcodeTxt.Text = "Id Auto Number";
@@ -237,7 +237,7 @@ namespace InventorySystemCsharp
             }
             else
             {
-                MessageBox.Show("u should select an item before updating !");
+                MessageBox.Show("você deve selecionar um item antes de atualizar!");
             }
 
         }//u_itemBtn method end
@@ -282,7 +282,7 @@ namespace InventorySystemCsharp
                     conn.Open();
                     cmd.ExecuteNonQuery();
                     conn.Close();
-                    MessageBox.Show("The item has been successfully deleted!");
+                    MessageBox.Show("O item foi excluído com sucesso!");
                     d_itemcodeTxt.Clear();
                     d_itemcodeTxt.Enabled = false;
                     d_itemcodeTxt.Text = "Id Auto Number";
@@ -300,7 +300,7 @@ namespace InventorySystemCsharp
             }
             else
             {
-                MessageBox.Show("u should select a row before deleting !");
+                MessageBox.Show("você deve selecionar uma linha antes de excluir!");
             }
         }
 
@@ -345,7 +345,7 @@ namespace InventorySystemCsharp
                     conn.Open();
                     cmd.ExecuteNonQuery();
                     conn.Close();
-                    MessageBox.Show("The Order was marked as Unpaid & sent to the Unpaid table !");
+                    MessageBox.Show("O pedido foi marcado como Não pago e enviado para a tabela Não pago!");
                     p_order_idTxt.Clear();
                     p_order_idTxt.Enabled = false;
                     p_order_idTxt.Text = "Id Auto Number";
@@ -362,7 +362,7 @@ namespace InventorySystemCsharp
             }
             else
             {
-                MessageBox.Show("First...u should select an order to make changes");
+                MessageBox.Show("Primeiro... você deve selecionar um pedido para fazer alterações");
             }
         }
 
@@ -404,7 +404,7 @@ namespace InventorySystemCsharp
                     conn.Open();
                     cmd.ExecuteNonQuery();
                     conn.Close();
-                    MessageBox.Show("The Order was marked as Cancelled & sent to the Cancelled orders table !");
+                    MessageBox.Show("O pedido foi marcado como cancelado e enviado para a tabela de pedidos cancelados!");
                     p_order_idTxt.Clear();
                     p_order_idTxt.Enabled = false;
                     p_order_idTxt.Text = "Id Auto Number";
@@ -421,7 +421,7 @@ namespace InventorySystemCsharp
             }
             else
             {
-                MessageBox.Show("First...u should select an order to cancel !");
+                MessageBox.Show("Primeiro... você deve selecionar um pedido para cancelar!");
             }
         }
 
@@ -440,7 +440,7 @@ namespace InventorySystemCsharp
                     conn.Open();
                     cmd.ExecuteNonQuery();
                     conn.Close();
-                    MessageBox.Show("The Order was marked as Paid & sent to the paid order table !");
+                    MessageBox.Show("O pedido foi marcado como pago e enviado para a tabela de pedidos pagos!");
                     unp_orderidTxt.Clear();
                     unp_orderidTxt.Enabled = false;
                     unp_orderidTxt.Text = "Id Auto Number";
@@ -457,7 +457,7 @@ namespace InventorySystemCsharp
             }
             else
             {
-                MessageBox.Show("First...u should select an order to make changes !");
+                MessageBox.Show("Primeiro... você deve selecionar um pedido para fazer alterações!");
             }
         }
 
@@ -499,7 +499,7 @@ namespace InventorySystemCsharp
                     conn.Open();
                     cmd.ExecuteNonQuery();
                     conn.Close();
-                    MessageBox.Show("The Order was marked as Cancelled & sent to the Cancelled orders table !");
+                    MessageBox.Show("O pedido foi marcado como cancelado e enviado para a tabela de pedidos cancelados!");
                     unp_orderidTxt.Clear();
                     unp_orderidTxt.Enabled = false;
                     unp_orderidTxt.Text = "Id Auto Number";
@@ -516,7 +516,7 @@ namespace InventorySystemCsharp
             }
             else
             {
-                MessageBox.Show("First....u should select an order to cancel !");
+                MessageBox.Show("Primeiro... você deve selecionar um pedido para cancelar!");
             }
         }
 

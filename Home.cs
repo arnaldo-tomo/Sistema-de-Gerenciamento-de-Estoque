@@ -100,12 +100,12 @@ namespace InventorySystemCsharp
                 }
                 else
                 {
-                    MessageBox.Show("Not Enough Items in Stock");
+                    MessageBox.Show("Itens insuficientes em estoque");
                 }
             }
             catch(FormatException)
             {
-                MessageBox.Show("Enter in Correct Format");
+                MessageBox.Show("Digite no formato correto");
             }
             catch(Exception x)
             {
@@ -117,7 +117,7 @@ namespace InventorySystemCsharp
         {
             if (this.ItemList == "")
             {
-                MessageBox.Show("No Items Selected");
+                MessageBox.Show("Nenhum item selecionado");
             }
             else
             {
