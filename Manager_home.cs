@@ -466,7 +466,7 @@ namespace InventorySystemCsharp
             }
         }
 
-        /*The function tht fills Unpaid orders datagridview*/
+        /*A função que preenche o datagridview de pedidos não pagos*/
         void FillUnpaidGridView()
         {
             String status = "no";
@@ -477,7 +477,7 @@ namespace InventorySystemCsharp
             unp_dataGridView.DataSource = unp_dt;
         }
 
-        /*The function tht fills the text boxes when a unpaid gridview cell is clicked*/
+        /*A função que preenche as caixas de texto quando uma célula de gridview não paga é clicada*/
         private void unp_dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -491,7 +491,7 @@ namespace InventorySystemCsharp
             }
         }
 
-        //The function tht executes when the cancel order button is clicked
+        //A função que é executada quando o botão cancelar ordem é clicado
         private void unp_cancelorder_btn_Click(object sender, EventArgs e)
         {
             if (unp_orderidTxt.Text != "" && unp_orderdetailsTxt.Text != "")
@@ -526,7 +526,7 @@ namespace InventorySystemCsharp
         }
 
 
-        //export pdf function
+        //exporta função pdf
         public void exportgridtopdf(DataGridView dgw, string filename)
         {
             BaseFont bf = BaseFont.CreateFont(BaseFont.TIMES_ROMAN, BaseFont.CP1250, BaseFont.EMBEDDED);
@@ -537,7 +537,7 @@ namespace InventorySystemCsharp
             pdftable.DefaultCell.BorderWidth = 1;
 
             iTextSharp.text.Font text = new iTextSharp.text.Font(bf, 10, iTextSharp.text.Font.NORMAL);
-            //add header
+            //adiciona cabeçalho
             foreach (DataGridViewColumn column in dgw.Columns)
             {
                 PdfPCell cell = new PdfPCell(new Phrase(column.HeaderText, text));
@@ -545,7 +545,7 @@ namespace InventorySystemCsharp
                 pdftable.AddCell(cell);
             }
 
-            //add datarow
+            //adiciona linha de dados
             foreach (DataGridViewRow row in dgw.Rows)
             {
                 foreach (DataGridViewCell cell in row.Cells)
