@@ -56,9 +56,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.logout_btn = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.close_btn = new System.Windows.Forms.Button();
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -66,6 +63,9 @@
             this.bunifuElipse6 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
+            this.close_btn = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.logout_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -114,7 +114,7 @@
             this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "Find";
+            this.bunifuFlatButton1.ButtonText = "Encontrar";
             this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -140,7 +140,7 @@
             this.bunifuFlatButton1.selected = false;
             this.bunifuFlatButton1.Size = new System.Drawing.Size(125, 28);
             this.bunifuFlatButton1.TabIndex = 26;
-            this.bunifuFlatButton1.Text = "Find";
+            this.bunifuFlatButton1.Text = "Encontrar";
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -216,7 +216,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(298, 50);
             this.button1.TabIndex = 29;
-            this.button1.Text = "View My Orders";
+            this.button1.Text = "Ver meus pedidos";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -227,9 +227,9 @@
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(654, 279);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 21);
+            this.label2.Size = new System.Drawing.Size(136, 21);
             this.label2.TabIndex = 30;
-            this.label2.Text = "Item ID :";
+            this.label2.Text = "Código do item:";
             // 
             // label3
             // 
@@ -238,9 +238,9 @@
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(654, 310);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 21);
+            this.label3.Size = new System.Drawing.Size(77, 21);
             this.label3.TabIndex = 30;
-            this.label3.Text = "Model :";
+            this.label3.Text = "Modelo :";
             // 
             // label4
             // 
@@ -260,9 +260,9 @@
             this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(654, 375);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 21);
+            this.label5.Size = new System.Drawing.Size(50, 21);
             this.label5.TabIndex = 30;
-            this.label5.Text = "Type :";
+            this.label5.Text = "Tipo :";
             // 
             // label6
             // 
@@ -271,9 +271,9 @@
             this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(654, 406);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 21);
+            this.label6.Size = new System.Drawing.Size(62, 21);
             this.label6.TabIndex = 30;
-            this.label6.Text = "Price :";
+            this.label6.Text = "Preço :";
             // 
             // label7
             // 
@@ -282,9 +282,9 @@
             this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(654, 439);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(81, 21);
+            this.label7.Size = new System.Drawing.Size(110, 21);
             this.label7.TabIndex = 30;
-            this.label7.Text = "In-Stock :";
+            this.label7.Text = "Em estoque :";
             // 
             // label8
             // 
@@ -293,9 +293,9 @@
             this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(654, 466);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(88, 21);
+            this.label8.Size = new System.Drawing.Size(116, 21);
             this.label8.TabIndex = 31;
-            this.label8.Text = "Quantity :";
+            this.label8.Text = "Quantidade :";
             // 
             // textBox7
             // 
@@ -316,7 +316,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(344, 50);
             this.button2.TabIndex = 29;
-            this.button2.Text = "Continue (Checkout)";
+            this.button2.Text = "Continuar (Finalizar Compra)";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -330,7 +330,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(344, 50);
             this.button4.TabIndex = 29;
-            this.button4.Text = "Add To Cart";
+            this.button4.Text = "Adicionar ao carrinho";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -342,20 +342,20 @@
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label10.Location = new System.Drawing.Point(15, 16);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(77, 17);
+            this.label10.Size = new System.Drawing.Size(105, 17);
             this.label10.TabIndex = 32;
-            this.label10.Text = "Find Items";
+            this.label10.Text = "Encontrar itens";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Bowlby One SC", 30.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(93, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(761, 64);
+            this.label1.Size = new System.Drawing.Size(600, 47);
             this.label1.TabIndex = 33;
-            this.label1.Text = "Inventory Management System";
+            this.label1.Text = "Sistema de Gestão de Estoque ";
             // 
             // panel1
             // 
@@ -390,53 +390,9 @@
             this.label12.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(56, 95);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(44, 17);
+            this.label12.Size = new System.Drawing.Size(41, 17);
             this.label12.TabIndex = 36;
-            this.label12.Text = "Hello";
-            // 
-            // logout_btn
-            // 
-            this.logout_btn.FlatAppearance.BorderSize = 0;
-            this.logout_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logout_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logout_btn.ForeColor = System.Drawing.Color.White;
-            this.logout_btn.Image = ((System.Drawing.Image)(resources.GetObject("logout_btn.Image")));
-            this.logout_btn.Location = new System.Drawing.Point(848, 31);
-            this.logout_btn.Margin = new System.Windows.Forms.Padding(2);
-            this.logout_btn.Name = "logout_btn";
-            this.logout_btn.Size = new System.Drawing.Size(64, 58);
-            this.logout_btn.TabIndex = 63;
-            this.logout_btn.UseVisualStyleBackColor = true;
-            this.logout_btn.Click += new System.EventHandler(this.logout_btn_Click);
-            // 
-            // button9
-            // 
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.Location = new System.Drawing.Point(921, 31);
-            this.button9.Margin = new System.Windows.Forms.Padding(2);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(64, 58);
-            this.button9.TabIndex = 64;
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // close_btn
-            // 
-            this.close_btn.FlatAppearance.BorderSize = 0;
-            this.close_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.close_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.close_btn.ForeColor = System.Drawing.Color.White;
-            this.close_btn.Image = ((System.Drawing.Image)(resources.GetObject("close_btn.Image")));
-            this.close_btn.Location = new System.Drawing.Point(994, 31);
-            this.close_btn.Margin = new System.Windows.Forms.Padding(2);
-            this.close_btn.Name = "close_btn";
-            this.close_btn.Size = new System.Drawing.Size(64, 58);
-            this.close_btn.TabIndex = 65;
-            this.close_btn.UseVisualStyleBackColor = true;
-            this.close_btn.Click += new System.EventHandler(this.close_btn_Click);
+            this.label12.Text = "Ola!,";
             // 
             // bunifuElipse2
             // 
@@ -478,6 +434,50 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1058, 26);
             this.panel2.TabIndex = 66;
+            // 
+            // close_btn
+            // 
+            this.close_btn.FlatAppearance.BorderSize = 0;
+            this.close_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.close_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.close_btn.ForeColor = System.Drawing.Color.White;
+            this.close_btn.Image = ((System.Drawing.Image)(resources.GetObject("close_btn.Image")));
+            this.close_btn.Location = new System.Drawing.Point(994, 31);
+            this.close_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.close_btn.Name = "close_btn";
+            this.close_btn.Size = new System.Drawing.Size(64, 58);
+            this.close_btn.TabIndex = 65;
+            this.close_btn.UseVisualStyleBackColor = true;
+            this.close_btn.Click += new System.EventHandler(this.close_btn_Click);
+            // 
+            // button9
+            // 
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
+            this.button9.Location = new System.Drawing.Point(921, 31);
+            this.button9.Margin = new System.Windows.Forms.Padding(2);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(64, 58);
+            this.button9.TabIndex = 64;
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // logout_btn
+            // 
+            this.logout_btn.FlatAppearance.BorderSize = 0;
+            this.logout_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logout_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logout_btn.ForeColor = System.Drawing.Color.White;
+            this.logout_btn.Image = ((System.Drawing.Image)(resources.GetObject("logout_btn.Image")));
+            this.logout_btn.Location = new System.Drawing.Point(848, 31);
+            this.logout_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.logout_btn.Name = "logout_btn";
+            this.logout_btn.Size = new System.Drawing.Size(64, 58);
+            this.logout_btn.TabIndex = 63;
+            this.logout_btn.UseVisualStyleBackColor = true;
+            this.logout_btn.Click += new System.EventHandler(this.logout_btn_Click);
             // 
             // Home
             // 

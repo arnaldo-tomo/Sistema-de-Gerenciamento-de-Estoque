@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle81 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle82 = new System.Windows.Forms.DataGridViewCellStyle();
+            BunifuAnimatorNS.Animation animation33 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Manager_home));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle83 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle84 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle85 = new System.Windows.Forms.DataGridViewCellStyle();
+            BunifuAnimatorNS.Animation animation34 = new BunifuAnimatorNS.Animation();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.slide_panel = new System.Windows.Forms.Panel();
@@ -134,11 +134,11 @@
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
             this.bunifuTransition2 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.label34 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -160,12 +160,12 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label1, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.label1, BunifuAnimatorNS.DecorationType.None);
-            this.label1.Font = new System.Drawing.Font("Bowlby One SC", 28F);
-            this.label1.Location = new System.Drawing.Point(407, 21);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F);
+            this.label1.Location = new System.Drawing.Point(405, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(542, 59);
+            this.label1.Size = new System.Drawing.Size(370, 44);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Inventory Management";
+            this.label1.Text = "Sistema  De Gestao ";
             // 
             // panel1
             // 
@@ -211,7 +211,7 @@
             this.unpaid_orders.Name = "unpaid_orders";
             this.unpaid_orders.Size = new System.Drawing.Size(189, 63);
             this.unpaid_orders.TabIndex = 57;
-            this.unpaid_orders.Text = "   Unpaid Orders";
+            this.unpaid_orders.Text = "Pedidos não pagos";
             this.unpaid_orders.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.unpaid_orders.UseVisualStyleBackColor = true;
             this.unpaid_orders.Click += new System.EventHandler(this.unpaid_orders_Click);
@@ -231,7 +231,7 @@
             this.paid_orders.Name = "paid_orders";
             this.paid_orders.Size = new System.Drawing.Size(188, 63);
             this.paid_orders.TabIndex = 55;
-            this.paid_orders.Text = "   Paid Orders";
+            this.paid_orders.Text = "Pedidos pagos";
             this.paid_orders.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.paid_orders.UseVisualStyleBackColor = true;
             this.paid_orders.Click += new System.EventHandler(this.paid_orders_Click);
@@ -251,7 +251,7 @@
             this.delete.Name = "delete";
             this.delete.Size = new System.Drawing.Size(190, 63);
             this.delete.TabIndex = 54;
-            this.delete.Text = "   Delete Item";
+            this.delete.Text = "Apagar item";
             this.delete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.delete.UseVisualStyleBackColor = true;
             this.delete.Click += new System.EventHandler(this.delete_Click);
@@ -271,7 +271,7 @@
             this.update.Name = "update";
             this.update.Size = new System.Drawing.Size(190, 63);
             this.update.TabIndex = 53;
-            this.update.Text = "   Update Item";
+            this.update.Text = "Atualizar item";
             this.update.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.update.UseVisualStyleBackColor = true;
             this.update.Click += new System.EventHandler(this.update_Click);
@@ -291,7 +291,7 @@
             this.add.Name = "add";
             this.add.Size = new System.Drawing.Size(190, 63);
             this.add.TabIndex = 52;
-            this.add.Text = "   Add Item";
+            this.add.Text = "Adicionar Item";
             this.add.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.add.UseVisualStyleBackColor = true;
             this.add.Click += new System.EventHandler(this.add_Click);
@@ -331,9 +331,9 @@
             this.manager_name.Location = new System.Drawing.Point(18, 128);
             this.manager_name.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.manager_name.Name = "manager_name";
-            this.manager_name.Size = new System.Drawing.Size(88, 17);
+            this.manager_name.Size = new System.Drawing.Size(41, 17);
             this.manager_name.TabIndex = 66;
-            this.manager_name.Text = "Hello There,";
+            this.manager_name.Text = "Ola!,";
             // 
             // pictureBox1
             // 
@@ -468,8 +468,8 @@
             this.itemlist.Location = new System.Drawing.Point(324, 27);
             this.itemlist.Margin = new System.Windows.Forms.Padding(2);
             this.itemlist.Name = "itemlist";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.itemlist.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle81.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.itemlist.RowsDefaultCellStyle = dataGridViewCellStyle81;
             this.itemlist.RowTemplate.Height = 24;
             this.itemlist.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.itemlist.Size = new System.Drawing.Size(610, 424);
@@ -692,8 +692,8 @@
             this.u_dataGridView.Location = new System.Drawing.Point(324, 27);
             this.u_dataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.u_dataGridView.Name = "u_dataGridView";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.u_dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.u_dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle82;
             this.u_dataGridView.RowTemplate.Height = 24;
             this.u_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.u_dataGridView.Size = new System.Drawing.Size(610, 424);
@@ -868,22 +868,22 @@
             // 
             this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.bunifuTransition1.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.bunifuTransition1.DefaultAnimation = animation1;
+            animation33.AnimateOnlyDifferences = true;
+            animation33.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation33.BlindCoeff")));
+            animation33.LeafCoeff = 0F;
+            animation33.MaxTime = 1F;
+            animation33.MinTime = 0F;
+            animation33.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation33.MosaicCoeff")));
+            animation33.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation33.MosaicShift")));
+            animation33.MosaicSize = 0;
+            animation33.Padding = new System.Windows.Forms.Padding(0);
+            animation33.RotateCoeff = 0F;
+            animation33.RotateLimit = 0F;
+            animation33.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation33.ScaleCoeff")));
+            animation33.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation33.SlideCoeff")));
+            animation33.TimeCoeff = 0F;
+            animation33.TransparencyCoeff = 0F;
+            this.bunifuTransition1.DefaultAnimation = animation33;
             // 
             // deleteitem_panel
             // 
@@ -954,8 +954,8 @@
             this.d_item_dataGridView.Location = new System.Drawing.Point(324, 27);
             this.d_item_dataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.d_item_dataGridView.Name = "d_item_dataGridView";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.d_item_dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.d_item_dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle83;
             this.d_item_dataGridView.RowTemplate.Height = 24;
             this.d_item_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.d_item_dataGridView.Size = new System.Drawing.Size(610, 424);
@@ -1145,7 +1145,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(212, 55);
             this.button3.TabIndex = 102;
-            this.button3.Text = "Generate Paid Order-List PDF";
+            this.button3.Text = "Gerar PDF de lista de pedidos pagos";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -1166,7 +1166,7 @@
             this.cancel_order_btn.Padding = new System.Windows.Forms.Padding(4);
             this.cancel_order_btn.Size = new System.Drawing.Size(212, 71);
             this.cancel_order_btn.TabIndex = 100;
-            this.cancel_order_btn.Text = "Cancel Order";
+            this.cancel_order_btn.Text = "Cancelar pedido";
             this.cancel_order_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.cancel_order_btn.UseVisualStyleBackColor = false;
             this.cancel_order_btn.Click += new System.EventHandler(this.cancel_order_btn_Click);
@@ -1177,12 +1177,12 @@
             this.bunifuTransition1.SetDecoration(this.label23, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.label23, BunifuAnimatorNS.DecorationType.None);
             this.label23.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(86, 19);
+            this.label23.Location = new System.Drawing.Point(35, 7);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(181, 18);
+            this.label23.Size = new System.Drawing.Size(303, 18);
             this.label23.TabIndex = 99;
-            this.label23.Text = "Paid-Order details Form";
+            this.label23.Text = "Formulário de detalhes do pedido pago";
             // 
             // make_unPaid_btn
             // 
@@ -1201,7 +1201,7 @@
             this.make_unPaid_btn.Padding = new System.Windows.Forms.Padding(4);
             this.make_unPaid_btn.Size = new System.Drawing.Size(212, 72);
             this.make_unPaid_btn.TabIndex = 98;
-            this.make_unPaid_btn.Text = "Make as Unpaid";
+            this.make_unPaid_btn.Text = "Não pago";
             this.make_unPaid_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.make_unPaid_btn.UseVisualStyleBackColor = false;
             this.make_unPaid_btn.Click += new System.EventHandler(this.make_unPaid_btn_Click);
@@ -1216,8 +1216,8 @@
             this.paid_dataGridView1.Location = new System.Drawing.Point(324, 27);
             this.paid_dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.paid_dataGridView1.Name = "paid_dataGridView1";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.paid_dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.paid_dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle84;
             this.paid_dataGridView1.RowTemplate.Height = 24;
             this.paid_dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.paid_dataGridView1.Size = new System.Drawing.Size(610, 424);
@@ -1285,12 +1285,12 @@
             this.bunifuTransition1.SetDecoration(this.label24, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.label24, BunifuAnimatorNS.DecorationType.None);
             this.label24.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(34, 63);
+            this.label24.Location = new System.Drawing.Point(38, 67);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(71, 20);
+            this.label24.Size = new System.Drawing.Size(106, 20);
             this.label24.TabIndex = 81;
-            this.label24.Text = "Order Id";
+            this.label24.Text = "ID do pedido";
             // 
             // label25
             // 
@@ -1301,9 +1301,9 @@
             this.label25.Location = new System.Drawing.Point(34, 232);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(70, 20);
+            this.label25.Size = new System.Drawing.Size(74, 20);
             this.label25.TabIndex = 80;
-            this.label25.Text = "Is-Paid ?";
+            this.label25.Text = "É pago ?";
             // 
             // label26
             // 
@@ -1314,9 +1314,9 @@
             this.label26.Location = new System.Drawing.Point(34, 190);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(46, 20);
+            this.label26.Size = new System.Drawing.Size(53, 20);
             this.label26.TabIndex = 79;
-            this.label26.Text = "Price";
+            this.label26.Text = "Preço";
             // 
             // p_user
             // 
@@ -1340,9 +1340,9 @@
             this.label29.Location = new System.Drawing.Point(34, 105);
             this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(57, 20);
+            this.label29.Size = new System.Drawing.Size(73, 20);
             this.label29.TabIndex = 76;
-            this.label29.Text = "Details";
+            this.label29.Text = "Detalhes";
             // 
             // unp_order_panel
             // 
@@ -1451,8 +1451,8 @@
             this.unp_dataGridView.Location = new System.Drawing.Point(324, 27);
             this.unp_dataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.unp_dataGridView.Name = "unp_dataGridView";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.unp_dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle85.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.unp_dataGridView.RowsDefaultCellStyle = dataGridViewCellStyle85;
             this.unp_dataGridView.RowTemplate.Height = 24;
             this.unp_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.unp_dataGridView.Size = new System.Drawing.Size(610, 424);
@@ -1579,39 +1579,26 @@
             this.label33.TabIndex = 76;
             this.label33.Text = "Details";
             // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTransition1.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
-            this.label34.Font = new System.Drawing.Font("Bowlby One SC", 28F);
-            this.label34.Location = new System.Drawing.Point(601, 68);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(183, 59);
-            this.label34.TabIndex = 66;
-            this.label34.Text = "System";
-            // 
             // bunifuTransition2
             // 
             this.bunifuTransition2.AnimationType = BunifuAnimatorNS.AnimationType.Transparent;
             this.bunifuTransition2.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 1F;
-            this.bunifuTransition2.DefaultAnimation = animation2;
+            animation34.AnimateOnlyDifferences = true;
+            animation34.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation34.BlindCoeff")));
+            animation34.LeafCoeff = 0F;
+            animation34.MaxTime = 1F;
+            animation34.MinTime = 0F;
+            animation34.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation34.MosaicCoeff")));
+            animation34.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation34.MosaicShift")));
+            animation34.MosaicSize = 0;
+            animation34.Padding = new System.Windows.Forms.Padding(0);
+            animation34.RotateCoeff = 0F;
+            animation34.RotateLimit = 0F;
+            animation34.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation34.ScaleCoeff")));
+            animation34.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation34.SlideCoeff")));
+            animation34.TimeCoeff = 0F;
+            animation34.TransparencyCoeff = 1F;
+            this.bunifuTransition2.DefaultAnimation = animation34;
             // 
             // bunifuElipse1
             // 
@@ -1627,6 +1614,20 @@
             // 
             this.bunifuElipse3.ElipseRadius = 20;
             this.bunifuElipse3.TargetControl = this.additem;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition2.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F);
+            this.label34.Location = new System.Drawing.Point(766, 22);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(159, 44);
+            this.label34.TabIndex = 66;
+            this.label34.Text = "Estoque";
+            this.label34.Click += new System.EventHandler(this.label34_Click);
             // 
             // Manager_home
             // 
@@ -1648,8 +1649,8 @@
             this.Controls.Add(this.updateitems_panel);
             this.Controls.Add(this.deleteitem_panel);
             this.Controls.Add(this.unp_order_panel);
-            this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Manager_home";

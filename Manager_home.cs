@@ -579,5 +579,10 @@ namespace InventorySystemCsharp
         {
             exportgridtopdf(paid_dataGridView1, "Paid order-List Report");
         }
+
+        private void label34_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
