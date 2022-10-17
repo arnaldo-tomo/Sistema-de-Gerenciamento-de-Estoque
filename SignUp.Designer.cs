@@ -63,10 +63,10 @@
             this.linkLabel1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.Location = new System.Drawing.Point(361, 500);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(225, 19);
+            this.linkLabel1.Size = new System.Drawing.Size(240, 19);
             this.linkLabel1.TabIndex = 26;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Already Registered? Login Now!";
+            this.linkLabel1.Text = "Já registrado? Conecte-se agora!";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // bunifuFlatButton1
@@ -75,7 +75,7 @@
             this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "Register";
+            this.bunifuFlatButton1.ButtonText = "Registar Usuario";
             this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
@@ -99,7 +99,7 @@
             this.bunifuFlatButton1.selected = false;
             this.bunifuFlatButton1.Size = new System.Drawing.Size(238, 42);
             this.bunifuFlatButton1.TabIndex = 25;
-            this.bunifuFlatButton1.Text = "Register";
+            this.bunifuFlatButton1.Text = "Registar Usuario";
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -216,9 +216,9 @@
             this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label7.Location = new System.Drawing.Point(360, 370);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(150, 21);
+            this.label7.Size = new System.Drawing.Size(180, 21);
             this.label7.TabIndex = 13;
-            this.label7.Text = "Retype Password :";
+            this.label7.Text = "Confirme a Password :";
             // 
             // label6
             // 
@@ -242,9 +242,9 @@
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(360, 258);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 21);
+            this.label5.Size = new System.Drawing.Size(96, 21);
             this.label5.TabIndex = 15;
-            this.label5.Text = "Contact :";
+            this.label5.Text = "Contacto :";
             // 
             // label4
             // 
@@ -268,9 +268,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(360, 145);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 21);
+            this.label1.Size = new System.Drawing.Size(118, 21);
             this.label1.TabIndex = 17;
-            this.label1.Text = "Last Name :";
+            this.label1.Text = "Ultimo Nome :";
             // 
             // label3
             // 
@@ -281,9 +281,9 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(360, 89);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 21);
+            this.label3.Size = new System.Drawing.Size(123, 21);
             this.label3.TabIndex = 18;
-            this.label3.Text = "First Name :";
+            this.label3.Text = "Primeiro nome:";
             // 
             // panel1
             // 
@@ -302,14 +302,14 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Bowlby One SC", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(65, 412);
+            this.label10.Location = new System.Drawing.Point(28, 377);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(183, 59);
+            this.label10.Size = new System.Drawing.Size(205, 44);
             this.label10.TabIndex = 17;
-            this.label10.Text = "System";
+            this.label10.Text = "ESTOQUE";
             // 
             // pictureBox1
             // 
@@ -326,25 +326,26 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Bowlby One SC", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(32, 284);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(247, 59);
+            this.label2.Size = new System.Drawing.Size(195, 44);
             this.label2.TabIndex = 15;
-            this.label2.Text = "Inventory";
+            this.label2.Text = "SISTEMA ";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Bowlby One SC", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(3, 344);
+            this.label8.Location = new System.Drawing.Point(11, 328);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(309, 59);
+            this.label8.Size = new System.Drawing.Size(250, 44);
             this.label8.TabIndex = 14;
-            this.label8.Text = "Management";
+            this.label8.Text = "GESTAO  DE";
             // 
             // label9
             // 
@@ -354,9 +355,9 @@
             this.label9.Location = new System.Drawing.Point(354, 32);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(156, 27);
+            this.label9.Size = new System.Drawing.Size(182, 27);
             this.label9.TabIndex = 28;
-            this.label9.Text = "Sign Up Form";
+            this.label9.Text = "CIRAR USUARIO";
             // 
             // bunifuElipse2
             // 

@@ -39,5 +39,10 @@ namespace InventorySystemCsharp
             admin.Show();
             this.Close();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -46,7 +46,7 @@
             this.panel1.BackColor = System.Drawing.Color.SeaGreen;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(658, 26);
             this.panel1.TabIndex = 0;
@@ -56,7 +56,7 @@
             this.panel2.BackColor = System.Drawing.Color.SeaGreen;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 416);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(658, 28);
             this.panel2.TabIndex = 1;
@@ -67,7 +67,7 @@
             this.users_list.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.users_list.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.users_list.Location = new System.Drawing.Point(52, 132);
-            this.users_list.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.users_list.Margin = new System.Windows.Forms.Padding(2);
             this.users_list.Name = "users_list";
             this.users_list.RowTemplate.Height = 24;
             this.users_list.Size = new System.Drawing.Size(553, 254);
@@ -81,7 +81,7 @@
             this.close_btn.ForeColor = System.Drawing.Color.White;
             this.close_btn.Image = ((System.Drawing.Image)(resources.GetObject("close_btn.Image")));
             this.close_btn.Location = new System.Drawing.Point(535, 28);
-            this.close_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.close_btn.Margin = new System.Windows.Forms.Padding(2);
             this.close_btn.Name = "close_btn";
             this.close_btn.Size = new System.Drawing.Size(64, 58);
             this.close_btn.TabIndex = 64;
@@ -98,7 +98,7 @@
             this.panel3.BackColor = System.Drawing.Color.SeaGreen;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 26);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(23, 390);
             this.panel3.TabIndex = 65;
@@ -108,7 +108,7 @@
             this.panel4.BackColor = System.Drawing.Color.SeaGreen;
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel4.Location = new System.Drawing.Point(636, 26);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(22, 390);
             this.panel4.TabIndex = 66;
@@ -120,9 +120,10 @@
             this.label1.Location = new System.Drawing.Point(247, 57);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 32);
+            this.label1.Size = new System.Drawing.Size(218, 32);
             this.label1.TabIndex = 67;
-            this.label1.Text = "Users List";
+            this.label1.Text = "Lista de Usuario";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // User_list
             // 
@@ -137,7 +138,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "User_list";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "User_list";
