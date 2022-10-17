@@ -60,6 +60,9 @@ namespace InventorySystemCsharp
                         }
                         if ((string)reader["usertype"].ToString() == "admin")
                         {
+                            //Admin_home admin = new Admin_home();
+                            //this.Hide();
+                            //admin.Show();
                             Admin_home admin = new Admin_home();
                             this.Hide();
                             admin.Show();
@@ -101,6 +104,11 @@ namespace InventorySystemCsharp
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Login_Load(object sender, EventArgs e)
         {
 
         }

@@ -146,6 +146,11 @@ namespace InventorySystemCsharp
             return hash.ToString();
         }
 
+        private void add_manager_panel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         
     }
 }

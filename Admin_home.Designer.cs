@@ -553,6 +553,7 @@
             this.add_manager_panel.Name = "add_manager_panel";
             this.add_manager_panel.Size = new System.Drawing.Size(981, 482);
             this.add_manager_panel.TabIndex = 67;
+            this.add_manager_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.add_manager_panel_Paint);
             // 
             // typecomboTxt
             // 
