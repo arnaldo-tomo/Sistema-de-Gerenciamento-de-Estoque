@@ -58,16 +58,16 @@ namespace InventorySystemCsharp
             sda.Fill(dt);
 
             comboBox1.DataSource = dt.Tables[0];
-            comboBox1.DisplayMember = "Tipo";
-            comboBox1.ValueMember = "Tipo";
+            comboBox1.DisplayMember = "model";
+            comboBox1.ValueMember = "model";
 
             MySqlDataAdapter sda1 = new MySqlDataAdapter("select DISTINCT part from spareparts", conn);
             DataSet dt1 = new DataSet();
             sda1.Fill(dt1);
 
             comboBox2.DataSource = dt1.Tables[0];
-            comboBox2.DisplayMember = "parthh";
-            comboBox2.ValueMember = "parthhh";
+            comboBox2.DisplayMember = "part";
+            comboBox2.ValueMember = "part";
 
             conn.Close();
         }
@@ -96,7 +96,7 @@ namespace InventorySystemCsharp
                     TotalPrice += float.Parse(textBox5.Text) * float.Parse(textBox7.Text);
                     UpdateQuery += "update spareparts set instock='" + (int.Parse(textBox6.Text) - int.Parse(textBox7.Text)) + "' where id='" + textBox1.Text + "';";
                     String msg = textBox1.Text + " " + textBox2.Text + " " + textBox3.Text + " " + textBox4.Text + "*" + textBox7.Text;
-                    MessageBox.Show(msg + Environment.NewLine + "Adicionado ao carrinho");
+                    MessageBox.Show(msg + Environment.NewLine + "Added to Cart");
                 }
                 else
                 {

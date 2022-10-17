@@ -165,7 +165,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(370, 44);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Sistema  De Gestao ";
+            this.label1.Text = "Sistema De Gestao ";
             // 
             // panel1
             // 
@@ -556,7 +556,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(88, 20);
             this.label8.TabIndex = 81;
-            this.label8.Text = "Código do Produto";
+            this.label8.Text = "Código";
             // 
             // label7
             // 
@@ -780,7 +780,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 20);
             this.label2.TabIndex = 104;
-            this.label2.Text = "Codigo Do Produto";
+            this.label2.Text = "Codigo";
             // 
             // label9
             // 
@@ -940,7 +940,7 @@
             this.del_item_btn.Padding = new System.Windows.Forms.Padding(4);
             this.del_item_btn.Size = new System.Drawing.Size(212, 74);
             this.del_item_btn.TabIndex = 98;
-            this.del_item_btn.Text = "Deletar Item";
+            this.del_item_btn.Text = "Deletar Produto";
             this.del_item_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.del_item_btn.UseVisualStyleBackColor = false;
             this.del_item_btn.Click += new System.EventHandler(this.del_item_btn_Click);
@@ -1042,7 +1042,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(86, 20);
             this.label17.TabIndex = 81;
-            this.label17.Text = "Codigo Do Produto";
+            this.label17.Text = "Codigo";
             // 
             // label18
             // 
@@ -1290,7 +1290,7 @@
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(106, 20);
             this.label24.TabIndex = 81;
-            this.label24.Text = "Codigo do pedido";
+            this.label24.Text = "Codigo";
             // 
             // label25
             // 
@@ -1401,7 +1401,7 @@
             this.unp_cancelorder_btn.Padding = new System.Windows.Forms.Padding(4);
             this.unp_cancelorder_btn.Size = new System.Drawing.Size(212, 63);
             this.unp_cancelorder_btn.TabIndex = 100;
-            this.unp_cancelorder_btn.Text = "Cancel Order";
+            this.unp_cancelorder_btn.Text = "Cancelar pedido";
             this.unp_cancelorder_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.unp_cancelorder_btn.UseVisualStyleBackColor = false;
             this.unp_cancelorder_btn.Click += new System.EventHandler(this.unp_cancelorder_btn_Click);
@@ -1417,7 +1417,7 @@
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(203, 18);
             this.label27.TabIndex = 99;
-            this.label27.Text = "Unpaid-Order Details Form";
+            this.label27.Text = "Formulário de detalhes do pedido não pago";
             // 
             // unp_make_btn
             // 
@@ -1436,7 +1436,7 @@
             this.unp_make_btn.Padding = new System.Windows.Forms.Padding(4);
             this.unp_make_btn.Size = new System.Drawing.Size(212, 63);
             this.unp_make_btn.TabIndex = 98;
-            this.unp_make_btn.Text = "Mark as Paid";
+            this.unp_make_btn.Text = "Marcar como pago";
             this.unp_make_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.unp_make_btn.UseVisualStyleBackColor = false;
             this.unp_make_btn.Click += new System.EventHandler(this.unp_make_btn_Click);
@@ -1525,7 +1525,7 @@
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(71, 20);
             this.label28.TabIndex = 81;
-            this.label28.Text = "Order Id";
+            this.label28.Text = "Código";
             // 
             // label30
             // 
@@ -1538,7 +1538,7 @@
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(70, 20);
             this.label30.TabIndex = 80;
-            this.label30.Text = "Is-Paid ?";
+            this.label30.Text = "É pago ";
             // 
             // label31
             // 
@@ -1551,7 +1551,7 @@
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(46, 20);
             this.label31.TabIndex = 79;
-            this.label31.Text = "Price";
+            this.label31.Text = "Preço";
             // 
             // label32
             // 
@@ -1564,7 +1564,7 @@
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(38, 20);
             this.label32.TabIndex = 77;
-            this.label32.Text = "Part";
+            this.label32.Text = "Nome";
             // 
             // label33
             // 
@@ -1577,7 +1577,7 @@
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(57, 20);
             this.label33.TabIndex = 76;
-            this.label33.Text = "Details";
+            this.label33.Text = "Detalhes";
             // 
             // label34
             // 
