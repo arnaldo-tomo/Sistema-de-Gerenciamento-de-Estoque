@@ -3,8 +3,6 @@ C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Sistema-de-Gerenciam
 C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Sistema-de-Gerenciamento-de-Estoque\obj\Debug\InventorySystem.pdb
 C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Sistema-de-Gerenciamento-de-Estoque\bin\Debug\InventorySystem.exe
 C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Sistema-de-Gerenciamento-de-Estoque\bin\Debug\InventorySystem.pdb
-C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Sistema-de-Gerenciamento-de-Estoque\bin\Debug\InventorySystem.exe.CodeAnalysisLog.xml
-C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Sistema-de-Gerenciamento-de-Estoque\bin\Debug\InventorySystem.exe.lastcodeanalysissucceeded
 C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Sistema-de-Gerenciamento-de-Estoque\obj\Debug\InventoryMSystem.csprojResolveAssemblyReference.cache
 C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Sistema-de-Gerenciamento-de-Estoque\obj\Debug\InventorySystemCsharp.Admin_home.resources
 C:\Users\Arnaldo Tomo\Documents\Visual Studio 2012\Projects\Sistema-de-Gerenciamento-de-Estoque\obj\Debug\InventorySystemCsharp.Confirm.resources

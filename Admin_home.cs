@@ -112,12 +112,12 @@ namespace InventorySystemCsharp
                         conn.Open();
                         cmd.ExecuteNonQuery();
                         conn.Close();
-                        MessageBox.Show("New Manager account has been created successfully!");
+                        MessageBox.Show("Nova conta de administrador foi criada Nova conta de administrador foi criada com sucesso");
                         
                     }
                     catch (MySqlException ex)
                     {
-                        MessageBox.Show("This Username is already taken!");
+                        MessageBox.Show("Este nome de usuário já está em uso!");
                     }
                     catch (Exception ex)
                     {
@@ -126,11 +126,11 @@ namespace InventorySystemCsharp
                 }
                 else
                 {
-                    MessageBox.Show("Given password doesn't match!!");
+                    MessageBox.Show("A senha fornecida não corresponde!!");
                 }
             }
             else
-                MessageBox.Show("Fill all fields");
+                MessageBox.Show("Preencha todos os campos");
         }
 
         public static string MD5Hash(string input)
