@@ -26,7 +26,7 @@ namespace InventorySystemCsharp
             additem_panel.BringToFront();
         }
 
-        //form load events
+        //formulário carrega eventos
         private void Manager_home_Load(object sender, EventArgs e)
         {
             //ManagerDetails manager = new ManagerDetails();
@@ -34,28 +34,28 @@ namespace InventorySystemCsharp
 
 
             itemcode.Enabled = false;
-            itemcode.Text = "Id Auto Number";
+            itemcode.Text = "Codigo automático";
             FillGridView();
 
             u_itemcodeTxt.Enabled = false;
-            u_itemcodeTxt.Text = "Id Auto Number";
+            u_itemcodeTxt.Text = "Codigo automático";
             FillUpdateGridView();
 
             d_itemcodeTxt.Enabled = false;
-            d_itemcodeTxt.Text = "Id Auto Number";
+            d_itemcodeTxt.Text = "Codigo automático";
             FilldeleteGridView();
 
             p_order_idTxt.Enabled = false;
-            p_order_idTxt.Text = "Id Auto Number";
+            p_order_idTxt.Text = "Codigo automático";
             FillPaidGridView();
 
             unp_orderidTxt.Enabled = false;
-            unp_orderidTxt.Text = "Id Auto Number";
+            unp_orderidTxt.Text = "Codigo automático";
             FillUnpaidGridView();
 
         }
 
-        //close button
+        //Fechar button
         private void close_btn_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -69,8 +69,8 @@ namespace InventorySystemCsharp
             login.Show();
         }
 
-        //------------------------------------navigation pane button events
-        //add-item button
+        //------------------------------------eventos do botão do painel de navegação
+        //botão adicionar item
         private void add_Click(object sender, EventArgs e)
         {
             slide_panel.Height = add.Height;
@@ -83,9 +83,9 @@ namespace InventorySystemCsharp
             instock.Clear();
             comboBox1.SelectedIndex = -1;
             itemcode.Enabled = false;
-            itemcode.Text = "Id Auto Number";
+            itemcode.Text = "Codigo automático";
         }
-        //update item button
+        //botão atualizar item
         private void update_Click(object sender, EventArgs e)
         {
             slide_panel.Height = update.Height;
@@ -98,9 +98,9 @@ namespace InventorySystemCsharp
             u_stockTxt.Clear();
             u_typeCombo.SelectedIndex = -1;
             u_itemcodeTxt.Enabled = false;
-            u_itemcodeTxt.Text = "Id Auto Number";
+            u_itemcodeTxt.Text = "Codigo automático";
         }
-        //delete item button
+        //deleter item button
         private void delete_Click(object sender, EventArgs e)
         {
             slide_panel.Height = delete.Height;
@@ -113,9 +113,9 @@ namespace InventorySystemCsharp
             d_instockTxt.Clear();
             d_typeCombo.SelectedIndex = -1;
             d_itemcodeTxt.Enabled = false;
-            d_itemcodeTxt.Text = "Id Auto Number";
+            d_itemcodeTxt.Text = "Codigo automático";
         }
-        //paid orders button
+        //botão de pedidos pagos
         private void paid_orders_Click(object sender, EventArgs e)
         {
             slide_panel.Height = paid_orders.Height;
@@ -127,9 +127,10 @@ namespace InventorySystemCsharp
             p_order_priceTxt.Clear();
             p_order_paidTxt.Clear();
             p_order_idTxt.Enabled = false;
-            p_order_idTxt.Text = "Id Auto Number";
+            p_order_idTxt.Text = "Codigo automático";
         }
-        //Unpaid orders button
+
+        //Botão de pedidos não pagos
         private void unpaid_orders_Click(object sender, EventArgs e)
         {
 
@@ -138,16 +139,16 @@ namespace InventorySystemCsharp
             unp_order_panel.BringToFront();
             FillUnpaidGridView();
             unp_orderidTxt.Enabled = false;
-            unp_orderidTxt.Text = "Id Auto Number";
+            unp_orderidTxt.Text = "Codigo automático";
             unp_orderdetailsTxt.Clear();
             unp_partTxt.Clear();
             unp_priceTxt.Clear();
             unp_ispaidTxt.Clear();
         }
 
-        ////////////////////////////////////---------------INPUT ITEMS PANEL FUNCTIONS----------///////////////////////////////////////
+        ///////////////////////////////////----------- -FUNÇÕES DO PAINEL DE ITENS DE ENTRADA----------/////////////////////////////////// ////
 
-        //The method executes when the add item button clicks
+        //O método é executado quando o botão adicionar item clica
         private void additem_Click(object sender, EventArgs e)
         {
             if(model.Text!="" && part.Text!="" && comboBox1.Text!="" && price.Text!="" && instock.Text != "")
@@ -177,9 +178,9 @@ namespace InventorySystemCsharp
             {
                 MessageBox.Show("vc deve preencher todos os campos");
             }
-        }//add item method end
+        }//adiciona fim do método do item
 
-        /*The function tht fills the datagridview*/
+        /*A função que preenche o datagridview*/
         void FillGridView()
         {
             MySqlConnection conn = new MySqlConnection(@"datasource=127.0.0.1;port=3306;SslMode=none;username=root;password=;database=inventorymgcsharp;");
@@ -189,7 +190,7 @@ namespace InventorySystemCsharp
             itemlist.DataSource = dt;
         }
 
-        /*The function tht fills the text boxes when a gridview cell is clicked */
+        /*A função que preenche as caixas de texto quando uma célula do gridview é clicada */
         private void itemlist_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if(e.RowIndex >= 0)
@@ -204,9 +205,9 @@ namespace InventorySystemCsharp
             }
         }
 
-        ////////////////////////////////////---------------UPDATE ITEMS PANEL FUNCTIONS----------///////////////////////////////////////
-        
-        //The function executes when the update-the item button clicks
+        ///////////////////////////////////----------- - ATUALIZAR FUNÇÕES DO PAINEL DE ITENS----------//////////////////////////////////// ////
+
+        //A função é executada quando o botão atualizar-o item clica
         private void u_itemBtn_Click(object sender, EventArgs e)
         {
             if (u_modelTxt.Text != "" && u_partTxt.Text != "" && u_typeCombo.Text != "" && u_priceTxt.Text != "" && u_stockTxt.Text != "")
@@ -222,7 +223,7 @@ namespace InventorySystemCsharp
                     MessageBox.Show("Os detalhes do item foram atualizados com sucesso!");
                     u_itemcodeTxt.Clear();
                     u_itemcodeTxt.Enabled = false;
-                    u_itemcodeTxt.Text = "Id Auto Number";
+                    u_itemcodeTxt.Text = "Codigo automático";
                     u_modelTxt.Clear();
                     u_partTxt.Clear();
                     u_priceTxt.Clear();
@@ -240,9 +241,9 @@ namespace InventorySystemCsharp
                 MessageBox.Show("você deve selecionar um item antes de atualizar!");
             }
 
-        }//u_itemBtn method end
+        }// fim do método u_itemBtn
 
-        /*The function tht fills the datagridview*/
+        /*A função que preenche o datagridview*/
         void FillUpdateGridView()
         {
             MySqlConnection conn = new MySqlConnection(@"datasource=127.0.0.1;port=3306;SslMode=none;username=root;password=;database=inventorymgcsharp;");
@@ -252,7 +253,9 @@ namespace InventorySystemCsharp
             u_dataGridView.DataSource = u_dt;
         }
 
-        /*The function tht fills the text boxes when a update gridview cell is clicked */
+        // fim do método u_itemBtn
+
+        /*A função que preenche as caixas de texto quando uma célula de atualização do gridview é clicada */
         private void u_dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -267,9 +270,11 @@ namespace InventorySystemCsharp
             }
         }
 
-        ////////////////////////////////////---------------DELETE ITEMS PANEL FUNCTIONS----------///////////////////////////////////////
+        // fim do método u_itemBtn
 
-        //The function tht executes when the delete items button clicks
+        ///////////////////////////////////----------- -EXCLUIR FUNÇÕES DO PAINEL DE ITENS----------/////////////////////////////////// ////
+
+        //A função que é executada quando o botão delete items clica
         private void del_item_btn_Click(object sender, EventArgs e)
         {
             if (d_modelTxt.Text != "" && d_partTxt.Text != "" && d_typeCombo.Text != "" && d_priceTxt.Text != "" && d_instockTxt.Text != "")
@@ -285,7 +290,7 @@ namespace InventorySystemCsharp
                     MessageBox.Show("O item foi excluído com sucesso!");
                     d_itemcodeTxt.Clear();
                     d_itemcodeTxt.Enabled = false;
-                    d_itemcodeTxt.Text = "Id Auto Number";
+                    d_itemcodeTxt.Text = "Codigo automático";
                     d_modelTxt.Clear();
                     d_partTxt.Clear();
                     d_priceTxt.Clear();
@@ -304,7 +309,7 @@ namespace InventorySystemCsharp
             }
         }
 
-        /*The function tht fills delete the datagridview*/
+        /*A função que preenche exclui o datagridview*/
         void FilldeleteGridView()
         {
             MySqlConnection conn = new MySqlConnection(@"datasource=127.0.0.1;port=3306;SslMode=none;username=root;password=;database=inventorymgcsharp;");
@@ -314,7 +319,7 @@ namespace InventorySystemCsharp
             d_item_dataGridView.DataSource = d_dt;
         }
 
-        /*The function tht fills the text boxes when a delete gridview cell is clicked */
+        /*A função que preenche as caixas de texto quando uma célula do gridview é clicada */
         private void d_item_dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -330,9 +335,9 @@ namespace InventorySystemCsharp
         }
 
 
-        ////////////////////////////////////---------------PAID ORDES PANEL FUNCTIONS----------///////////////////////////////////////
+        ///////////////////////////////////----------- -FUNÇÕES DO PAINEL DE PEDIDOS PAGOS----------/////////////////////////////////// ////
 
-        //The function tht executes when the unpaid order button clicks
+        //A função que é executada quando o botão de pedido não pago clica
         private void make_unPaid_btn_Click(object sender, EventArgs e)
         {
             if (p_order_idTxt.Text != ""&& p_order_detailsTxt.Text !="")
@@ -348,7 +353,7 @@ namespace InventorySystemCsharp
                     MessageBox.Show("O pedido foi marcado como Não pago e enviado para a tabela Não pago!");
                     p_order_idTxt.Clear();
                     p_order_idTxt.Enabled = false;
-                    p_order_idTxt.Text = "Id Auto Number";
+                    p_order_idTxt.Text = "Codigo automático";
                     p_order_detailsTxt.Clear();
                     p_partTxt.Clear();
                     p_order_priceTxt.Clear();
@@ -366,7 +371,7 @@ namespace InventorySystemCsharp
             }
         }
 
-        /*The function tht fills paid orders datagridview*/
+        /*A função que preenche os pedidos pagos datagridview*/
         void FillPaidGridView()
         {
             String status = "yes";
@@ -377,7 +382,7 @@ namespace InventorySystemCsharp
             paid_dataGridView1.DataSource = p_dt;
         }
 
-        /*The function tht fills the text boxes when a delete gridview cell is clicked*/
+        /*A função que preenche as caixas de texto quando uma célula de exclusão de grade é clicada*/
         private void paid_dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -391,7 +396,7 @@ namespace InventorySystemCsharp
             }
         }
 
-        //The function tht executes when the cancel order button is clicked
+        //A função que é executada quando o botão cancelar ordem é clicado
         private void cancel_order_btn_Click(object sender, EventArgs e)
         {
             if (p_order_idTxt.Text != ""&& p_order_detailsTxt.Text !="")
@@ -407,7 +412,7 @@ namespace InventorySystemCsharp
                     MessageBox.Show("O pedido foi marcado como cancelado e enviado para a tabela de pedidos cancelados!");
                     p_order_idTxt.Clear();
                     p_order_idTxt.Enabled = false;
-                    p_order_idTxt.Text = "Id Auto Number";
+                    p_order_idTxt.Text = "Codigo automático";
                     p_order_detailsTxt.Clear();
                     p_partTxt.Clear();
                     p_order_priceTxt.Clear();
@@ -425,9 +430,9 @@ namespace InventorySystemCsharp
             }
         }
 
-        ////////////////////////////////////---------------UNPAID ORDES PANEL FUNCTIONS----------///////////////////////////////////////
+        ///////////////////////////////////----------- -FUNÇÕES DO PAINEL DE PEDIDOS NÃO PAGOS----------/////////////////////////////////// ////
 
-        //The function tht executes when the paid order button clicks
+        //A função que é executada quando o botão do pedido pago clica
         private void unp_make_btn_Click(object sender, EventArgs e)
         {
             if (unp_orderidTxt.Text != "" && unp_orderdetailsTxt.Text !="")
@@ -443,7 +448,7 @@ namespace InventorySystemCsharp
                     MessageBox.Show("O pedido foi marcado como pago e enviado para a tabela de pedidos pagos!");
                     unp_orderidTxt.Clear();
                     unp_orderidTxt.Enabled = false;
-                    unp_orderidTxt.Text = "Id Auto Number";
+                    unp_orderidTxt.Text = "Codigo automático";
                     unp_orderdetailsTxt.Clear();
                     unp_partTxt.Clear();
                     unp_priceTxt.Clear();
@@ -502,7 +507,7 @@ namespace InventorySystemCsharp
                     MessageBox.Show("O pedido foi marcado como cancelado e enviado para a tabela de pedidos cancelados!");
                     unp_orderidTxt.Clear();
                     unp_orderidTxt.Enabled = false;
-                    unp_orderidTxt.Text = "Id Auto Number";
+                    unp_orderidTxt.Text = "Codigo automático";
                     unp_orderdetailsTxt.Clear();
                     unp_partTxt.Clear();
                     unp_priceTxt.Clear();
@@ -567,17 +572,17 @@ namespace InventorySystemCsharp
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            exportgridtopdf(itemlist, "item-List Report");
+            exportgridtopdf(itemlist, "Relatório de lista de itens");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            exportgridtopdf(unp_dataGridView, "unpaid order-List Report");
+            exportgridtopdf(unp_dataGridView, "Relatório de lista de pedidos não pagos");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            exportgridtopdf(paid_dataGridView1, "Paid order-List Report");
+            exportgridtopdf(paid_dataGridView1, "Relatório de lista de pedidos pagos");
         }
 
         private void label34_Click(object sender, EventArgs e)
